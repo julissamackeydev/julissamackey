@@ -1,39 +1,82 @@
 <div style="height: 100%; width: 100%;">
-<div class="white-text flow-text container">
+
+  <div class="white-text flow-text container hide-on-med-and-up">
+
     <div class="row"></div>
 
-    <div class="row center-align">
-      <div class="col s4 m3 l3 offset-s2 offset-m3 offset-l3 project reach"[routerLink]="['/flume']">
-        <p>flume</p>
-        <h6 class="project-description">application|systems monitoring</h6>
-      </div>
-      <div class="col s4 m3 l3 project reach"[routerLink]="['/evergreen']">
-        <p>evergreen</p>
-        <h6 class="project-description">environment management tool </h6>
-      </div>
+    <div class="col s12 project reach" [routerLink]="['/flume']">
+      <p>flume</p>
+      <h6 class="project-description">application|systems monitoring</h6>
     </div>
 
     <div class="row"></div>
 
-    <div class="row center-align">
-      <div class="col s4 m3 l3 offset-s2 offset-m3 offset-l3 project reach"[routerLink]="['/matcher']">
-        <p>matcher</p>
-        <h6 class="project-description">EMR cluster creation|management</h6>
-      </div>
-      <div class="col s4 ms l3 project reach"[routerLink]="['/e2e-friend']">
-        <p>e2e-friend</p>
+    <div class="col s12 project reach" [routerLink]="['/matcher']">
+      <p>matcher</p>
+      <h6 class="project-description">EMR cluster creation|management</h6>
+    </div>
+
+    <div class="row"></div>
+
+    <div class="col s12 project reach" [routerLink]="['/e2e-friend']">
+      <p>e2e-friend</p>
+      <div class="container">
         <h6 class="project-description">on demand test data creation. prepare E2E testing and UAT</h6>
       </div>
     </div>
 
     <div class="row"></div>
 
+    <div class="col s12 project reach" [routerLink]="['/christian-zaremba']">
+      <p>christian zaremba</p>
+      <h6 class="project-description">artist website</h6>
+    </div>
+
+    <div class="row"></div>
+
+    <div class="col s12 project reach" [routerLink]="['/mo-zhou']">
+      <p>mo zhou</p>
+      <h6 class="project-description">artist website</h6>
+    </div>
+
+    <div class="row"></div>
+
+  </div>
+  <div class="white-text flow-text container hide-on-small-only">
+    <div class="row"></div>
+
     <div class="row center-align">
-      <div class="col s4 m3 l3 offset-s2 offset-m3 offset-l3 project reach"[routerLink]="['/christian-zaremba']">
+      <div class="col m3 l3 offset-m3 offset-l3 project reach" [routerLink]="['/flume']">
+        <p>flume</p>
+        <h6 class="project-description">application|systems monitoring</h6>
+      </div>
+      <div class="col m3 l3 project reach" [routerLink]="['/evergreen']">
+        <p>evergreen</p>
+        <h6 class="project-description">environment management tool </h6>
+      </div>
+    </div>
+
+    <div class="row hide-on-small-only"></div>
+
+    <div class="row center-align">
+      <div class="col m3 l3 offset-m3 offset-l3 project reach" [routerLink]="['/matcher']">
+        <p>matcher</p>
+        <h6 class="project-description">EMR cluster creation|management</h6>
+      </div>
+      <div class="col ms l3 project reach" [routerLink]="['/e2e-friend']">
+        <p>e2e-friend</p>
+        <h6 class="project-description">on demand test data creation. prepare E2E testing and UAT</h6>
+      </div>
+    </div>
+
+    <div class="row hide-on-small-only"></div>
+
+    <div class="row center-align">
+      <div class="col m3 l3 offset-m3 offset-l3 project reach" [routerLink]="['/christian-zaremba']">
         <p>christian zaremba</p>
         <h6 class="project-description">artist website</h6>
       </div>
-      <div class="col s4 m3 l3 project reach"[routerLink]="['/mo-zhou']">
+      <div class="col m3 l3 project reach" [routerLink]="['/mo-zhou']">
         <p>mo zhou</p>
         <h6 class="project-description">artist website</h6>
       </div>
